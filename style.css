@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
+
+body{
+  font: 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  letter-spacing: .5em;
+  top: 15%;
+  background: linear-gradient(to right, aquamarine , powderblue);
+}
+
+.designwrap {
+  width: 100%;
+  text-align: center;
+}
+
+h1.I {
+  font-family:'Fjalla One', sans-serif;
+  font-size:7em;
+  color: #ff3643;
+  margin: 0 -37px 0 0;
+  padding: 0;
+  letter-spacing: 3px;
+  font-weight: 500;
+  transition: all ease-in .2s;
+  -webkit-text-stroke: 1px rgba(238,238,238,.2); 
+  display:inline;
+  opacity: 0;
+  text-shadow: 
+    1px 1px 0 rgba(23,23,23,1),
+    2px 2px 0 rgba(23,23,23,0.9),
+    3px 3px 0 rgba(23,23,23,0.8),
+    4px 4px 0 rgba(23,23,23,0.7),
+    5px 5px 0 rgba(23,23,23,0.6),
+    6px 6px 0 rgba(23,23,23,0.5),
+    7px 7px 0 rgba(23,23,23,0.4),
+    8px 8px 0 rgba(23,23,23,0.3),
+    9px 9px 0 rgba(23,23,23,0.2),
+    10px 10px 0 rgba(23,23,23,0.1),
+    11px 11px 0 rgba(23,23,23,0.09),
+    12px 12px 0 rgba(23,23,23,0.08),
+    13px 13px 0 rgba(23,23,23,0.07),
+    14px 14px 0 rgba(23,23,23,0.06),
+    15px 15px 0 rgba(23,23,23,0.05),
+    16px 16px 0 rgba(23,23,23,0.04),
+    17px 17px 0 rgba(23,23,23,0.03),
+    18px 18px 0 rgba(23,23,23,0.02),
+    19px 19px 0 rgba(23,23,23,0.01),
+    20px 20px 0 rgba(23,23,23,0.0),
+    -15px 20px 10px rgba(23,23,23,0.05);
+}
+
+h1.design {
+  font-family:'Fjalla One', sans-serif;
+  font-size:7em;
+  color: #ff3643;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.3s;
+  display:inline;
+  text-shadow: 
+    1px 1px 0 rgba(23,23,23,1),
+    2px 2px 0 rgba(23,23,23,0.9),
+    3px 3px 0 rgba(23,23,23,0.8),
+    4px 4px 0 rgba(23,23,23,0.7),
+    5px 5px 0 rgba(23,23,23,0.6),
+    6px 6px 0 rgba(23,23,23,0.5),
+    7px 7px 0 rgba(23,23,23,0.4),
+    8px 8px 0 rgba(23,23,23,0.3),
+    9px 9px 0 rgba(23,23,23,0.2),
+    10px 10px 0 rgba(23,23,23,0.1),
+    11px 11px 0 rgba(23,23,23,0.09),
+    12px 12px 0 rgba(23,23,23,0.08),
+    13px 13px 0 rgba(23,23,23,0.07),
+    14px 14px 0 rgba(23,23,23,0.06),
+    15px 15px 0 rgba(23,23,23,0.05),
+    16px 16px 0 rgba(23,23,23,0.04),
+    17px 17px 0 rgba(23,23,23,0.03),
+    18px 18px 0 rgba(23,23,23,0.02),
+    19px 19px 0 rgba(23,23,23,0.01),
+    20px 20px 0 rgba(23,23,23,0.0),
+    -15px 20px 10px rgba(23,23,23,0.05);
+}
+
+h1.design:hover {
+  1px 1px 0 rgba(23,23,23,1),
+  3px 3px 0 rgba(23,23,23,0.9),
+  5px 5px 0 rgba(23,23,23,0.8),
+  7px 7px 0 rgba(23,23,23,0.7),
+  9px 9px 0 rgba(23,23,23,0.6),
+  11px 11px 0 rgba(23,23,23,0.5),
+  13px 13px 0 rgba(23,23,23,0.4),
+  15px 15px 0 rgba(23,23,23,0.3),
+  17px 17px 0 rgba(23,23,23,0.2),
+  19px 19px 0 rgba(23,23,23,0.1),
+  21px 21px 0 rgba(23,23,23,0.08),
+  23px 23px 0 rgba(23,23,23,0.06),
+  25px 25px 0 rgba(23,23,23,0.04),
+  27px 27px 0 rgba(23,23,23,0.02),
+  29px 29px 0 rgba(23,23,23,0.0);
+  margin: 0 0 0 50px;
+  border-bottom: 5px solid;
+}
+
+.designwrap:hover .I {
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border: 3px solid #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(38, 38, 38);
+  width: 75%;
+  height: auto;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  position: relative;
+}
+
+h1{
+  font-size: 80px;
+}
+
+.inputText{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+#first{
+  font-size: 40px;
+}
+
+.second{
+  font-size: 35px;
+}
+
+li{
+  font-size: 25px;
+}
+
+.done {
+  text-decoration: line-through;
+}
